@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { Remove, TodoItemBlock, Text } from "../../style/todo/todoStyle";
 import { CheckButton, EditButton } from "../../style/button";
 import { MdEdit, MdDelete } from "react-icons/md";
-import { updateTodos, deleteTodos } from "../../lib/api";
+import { updateTodo, deleteTodo } from "../../lib/api";
 import TodoEdit from "./TodoEdit";
 
 function TodoItem({ content, isCompleted, id, getData }) {
@@ -21,7 +21,7 @@ function TodoItem({ content, isCompleted, id, getData }) {
 
     if (currentInput.length === 0) return;
 
-    await updateTodos({ id: id, todo: currentInput, isCompleted: isCompleted });
+    await updateTodo({ id: id, todo: currentInput, isCompleted: isCompleted });
 
     getData();
 
@@ -29,13 +29,13 @@ function TodoItem({ content, isCompleted, id, getData }) {
   };
 
   const onToggle = async (e) => {
-    await updateTodos({ id: id, todo: content, isCompleted: !isCompleted });
+    await updateTodo({ id: id, todo: content, isCompleted: !isCompleted });
 
     getData();
   };
 
   const onDelete = async (e) => {
-    await deleteTodos(id);
+    await deleteTodo(id);
 
     getData();
   };
@@ -58,7 +58,7 @@ function TodoItem({ content, isCompleted, id, getData }) {
       ) : (
         <>
           <Text checked={isCompleted}>{content}</Text>
- 
+
           <EditButton data-testid="modify-button" onClick={onEditToggle}>
             <MdEdit />
           </EditButton>
