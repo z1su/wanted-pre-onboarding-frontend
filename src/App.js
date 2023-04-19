@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TodoPage from "./page/TodoPage";
 import SignUpPage from "./page/SignUpPage";
 import SignInPage from "./page/SignInPage";
@@ -7,7 +7,7 @@ import { GlobalStyle } from "./style/globalStyle";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <GlobalStyle />
       <Routes>
         <Route path="/signin" element={<SignInPage />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="/todo" element={<TodoPage />} />
         <Route path="/" element={<SignUpPage />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
