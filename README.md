@@ -67,7 +67,6 @@
 
 - e-mail : @포함
 - pw : 8자 이상 입력
-<img width="75%" src="https://user-images.githubusercontent.com/70136320/233055494-b3ce4927-7ec1-46fb-9faf-72afba89a938.gif"/>
 
 ### ☑️ **Assignment 2: 회원가입 진행 후 /signin 경로 이동**
 
