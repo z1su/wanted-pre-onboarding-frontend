@@ -57,7 +57,7 @@
 
 ## 시연 영상
 
-<img width="75%" src="https://user-images.githubusercontent.com/70136320/233056154-042a7c68-ed68-49af-a9a5-6901b5ff8e05.gif"/>
+<img width="90%" src="https://user-images.githubusercontent.com/70136320/233056154-042a7c68-ed68-49af-a9a5-6901b5ff8e05.gif"/>
 
 ---
 
