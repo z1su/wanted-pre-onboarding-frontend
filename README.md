@@ -12,52 +12,24 @@
 📦src
  ┣ 📂component
  ┃ ┣ 📂auth
- ┃ ┃ ┣ 📜AuthForm.js
- ┃ ┃ ┣ 📜AuthHead.js
- ┃ ┃ ┗ 📜AuthTemplate.js
- ┃ ┗ 📂todo
- ┃ ┃ ┣ 📜TodoCreate.js
- ┃ ┃ ┣ 📜TodoEdit.js
- ┃ ┃ ┣ 📜TodoHead.js
- ┃ ┃ ┣ 📜TodoItems.js
- ┃ ┃ ┣ 📜TodoList.js
- ┃ ┃ ┗ 📜TodoTemplate.js
-
+ ┃ ┣ 📂todo
  ┣ 📂hooks
- ┃ ┣ 📜useAuthInput.js
- ┃ ┣ 📜useAuthRedirect.js
- ┃ ┗ 📜useRefreshData.js
-
  ┣ 📂lib
- ┃ ┗ 📜api.js
-
  ┣ 📂page
- ┃ ┣ 📜SignInPage.js
- ┃ ┣ 📜SignUpPage.js
- ┃ ┗ 📜TodoPage.js
-
  ┣ 📂provider
  ┃ ┣ 📂auth
- ┃ ┃ ┣ 📜SignInProvider.js
- ┃ ┃ ┗ 📜SignUpProvider.js
-
- ┃ ┗ 📂todo
- ┃ ┃ ┗ 📜TodoProvider.js
-
+ ┃ ┣ 📂todo
  ┣ 📂style
  ┃ ┣ 📂auth
- ┃ ┃ ┗ 📜authStyle.js
  ┃ ┣ 📂todo
- ┃ ┃ ┗ 📜todoStyle.js
- ┃ ┣ 📜button.js
- ┃ ┗ 📜globalStyle.js
+
 ```
 
 # 2. 구현 기능 소개
 
 ## 시연 영상
 
-<img width="90%" src="https://user-images.githubusercontent.com/70136320/233056154-042a7c68-ed68-49af-a9a5-6901b5ff8e05.gif"/>
+<img width="90%" src="https://user-images.githubusercontent.com/70136320/233063299-19d1afc7-d611-4d70-ae78-dc8d18405fb4.gif"/>
 
 ---
 
@@ -67,6 +39,8 @@
 
 - e-mail : @포함
 - pw : 8자 이상 입력
+<img width="75%" src="https://user-images.githubusercontent.com/70136320/233060914-30f4f143-7446-4e7e-be61-f1c2748b2d34.gif"/>
+
 
 ### ☑️ **Assignment 2: 회원가입 진행 후 /signin 경로 이동**
 
