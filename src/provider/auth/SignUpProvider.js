@@ -19,9 +19,9 @@ function SignupProvider() {
     const response = await signUp({ email, password });
 
     if (response) {
-      setErrorMessage("");
+      setErrorMessage("이미 사용중인 이메일입니다.");
     } else {
-      setErrorMessage("동일한 이메일이 이미 존재합니다.");
+      setErrorMessage(response);
       navigate("/signin");
     }
   };
