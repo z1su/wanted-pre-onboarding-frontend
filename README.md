@@ -6,8 +6,6 @@
 
 # 1. 폴더 구조
 
----
-
 ```
 📦src
  ┣ 📂component
@@ -30,8 +28,6 @@
 ## 시연 영상
 
 <img width="90%" src="https://user-images.githubusercontent.com/70136320/233063299-19d1afc7-d611-4d70-ae78-dc8d18405fb4.gif"/>
-
----
 
 ## 로그인 / 회원가입
 
@@ -77,8 +73,6 @@
 
 # 3. 프로젝트 설치 및 실행
 
----
-
 1) 프로젝트 패키지 설치
 
 `npm install`
@@ -88,7 +82,5 @@
 `npm start`
 
 # 4. 사용 라이브러리
-
----
 
 react-router-dom, React-Icons ,styled-components, Axios
